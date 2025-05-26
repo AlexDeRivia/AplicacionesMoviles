@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "questionText": "¿Cuál es el sistema operativo más común para aplicaciones móviles?",
+    "options": ["Windows", "Android", "Linux", "Symbian"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "questionText": "¿Qué lenguaje es comúnmente usado para desarrollar apps en iOS?",
+    "options": ["Kotlin", "Java", "Swift", "Python"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "questionText": "¿Cuál es el propósito de una app \"híbrida\"?",
+    "options": ["Funciona sin conexión a internet", "Mezcla contenido gratuito y de pago", "Se ejecuta en múltiples plataformas con un solo código", "Es una combinación de juegos y redes sociales"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "questionText": "¿Qué plataforma se utiliza para distribuir aplicaciones Android?",
+    "options": ["App Store", "Google Play", "Windows Store", "Huawei AppGallery"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "questionText": "¿Cuál es el entorno de desarrollo oficial para Android?",
+    "options": ["Visual Studio", "Xcode", "Android Studio", "NetBeans"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 6,
+    "questionText": "¿Qué significa \"UX\" en el contexto de apps móviles?",
+    "options": ["Uso Extendido", "Usuario Experto", "Experiencia del Usuario", "Unidad Extendida"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 7,
+    "questionText": "¿Qué herramienta permite crear apps móviles sin saber programar?",
+    "options": ["Android Studio", "Flutter", "Appgyver", "Kotlin"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 8,
+    "questionText": "¿Qué es una “notificación push”?",
+    "options": ["Un mensaje SMS", "Un correo electrónico automatizado", "Un mensaje enviado por la app al dispositivo del usuario", "Una actualización automática de la app"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "questionText": "¿Cuál es el lenguaje principal de Flutter?",
+    "options": ["Dart", "Kotlin", "JavaScript", "Java"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "questionText": "¿Qué significa que una app sea \"responsive\"?",
+    "options": ["Tiene buenas reseñas", "Se adapta a diferentes tamaños de pantalla", "Es rápida", "Consume poca batería"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 11,
+    "questionText": "¿Qué empresa desarrolla iOS?",
+    "options": ["Microsoft", "Apple", "Google", "Samsung"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 12,
+    "questionText": "¿Qué tipo de app necesita conexión constante a internet?",
+    "options": ["Nativa", "Híbrida", "Web", "De escritorio"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 13,
+    "questionText": "¿Qué es un APK?",
+    "options": ["Una copia de seguridad", "Un archivo comprimido de música", "Un archivo de instalación de Android", "Un antivirus"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 14,
+    "questionText": "¿Cuál de las siguientes es una app de mensajería?",
+    "options": ["Canva", "WhatsApp", "Spotify", "Waze"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "questionText": "¿Cuál es una ventaja de las apps nativas?",
+    "options": ["Funcionan solo en navegadores", "Son más lentas", "Tienen mejor rendimiento y acceso al hardware", "No requieren instalación"],
+    "correctAnswerIndex": 2
+  }
+]

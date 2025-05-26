@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imagen de fondo -->
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo_clinica" />
+
+    <!-- Arco verde -->
+    <ImageView
+        android:id="@+id/arcoVerde"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bg_arco_verde"
+        android:scaleType="fitXY" />
+
+    <!-- Contenedor sobre el arco -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_alignBottom="@id/arcoVerde"
+        android:layout_marginBottom="50dp"
+        android:elevation="8dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/clinica_logo"
+            android:contentDescription="Logo Clínica"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <!-- Fondo para direcciones -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@drawable/bg_direccion_box"
+            android:layout_marginBottom="24dp"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtDireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jr. Manuel Villavicencio 512-516"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/txtDireccionCiudad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chimbote - Perú"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Botón -->
+        <Button
+            android:id="@+id/btnVerServicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver servicios disponibles"
+            android:textColor="@color/primary"
+            android:backgroundTint="@android:color/white"
+            android:elevation="8dp"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+</RelativeLayout>

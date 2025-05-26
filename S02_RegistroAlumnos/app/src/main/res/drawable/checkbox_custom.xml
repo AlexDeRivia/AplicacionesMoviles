@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado marcado -->
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- Fondo color #D40038 -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#D40038" />
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <!-- Check blanco encima -->
+            <item android:drawable="@android:drawable/checkbox_on_background" />
+        </layer-list>
+    </item>
+
+    <!-- Estado no marcado -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="#D40038" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+</selector>
