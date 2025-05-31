@@ -1,5 +1,6 @@
 package com.example.s04_quizz
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
@@ -13,12 +14,13 @@ class QuizActivity : AppCompatActivity() {
     private var currentIndex = 0
     private var score = 0
     private lateinit var selectedButtons: List<Button>
+    private var username: String? = null  // <- Se vuelve global para pasarla al final
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        val username = intent.getStringExtra("username")
+        username = intent.getStringExtra("username")
         findViewById<TextView>(R.id.textUserName).text = "Hola, $username!"
 
         questionList = loadQuestionsFromAssets()
@@ -54,9 +56,19 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun loadQuestion() {
+
+        val questionTextView = findViewById<TextView>(R.id.textQuestion)
+        questionTextView.alpha = 0f
+        questionTextView.animate().alpha(1f).setDuration(500).start()
+
+
         if (currentIndex >= questionList.size) {
-            findViewById<TextView>(R.id.textQuestion).text = "¡Quiz terminado! Puntaje: $score"
-            selectedButtons.forEach { it.isEnabled = false }
+            // Ir a la pantalla de resultado
+            val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("username", username)
+            intent.putExtra("score", score)
+            startActivity(intent)
+            finish()
             return
         }
 

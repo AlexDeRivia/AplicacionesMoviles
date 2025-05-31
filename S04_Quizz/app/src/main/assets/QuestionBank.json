@@ -1,92 +1,92 @@
 [
   {
     "id": 1,
-    "questionText": "¿Cuál es el sistema operativo más común para aplicaciones móviles?",
-    "options": ["Windows", "Android", "Linux", "Symbian"],
-    "correctAnswerIndex": 1
-  },
-  {
-    "id": 2,
-    "questionText": "¿Qué lenguaje es comúnmente usado para desarrollar apps en iOS?",
-    "options": ["Kotlin", "Java", "Swift", "Python"],
+    "questionText": "¿Cuál de las siguientes afirmaciones describe mejor una aplicación móvil nativa?",
+    "options": ["Es una app que corre únicamente en navegadores web.", "Es desarrollada con tecnologías web pero empaquetada como app.", "Es una app desarrollada específicamente para un sistema operativo móvil.", "Es una app que no necesita ser instalada para funcionar."],
     "correctAnswerIndex": 2
   },
   {
+    "id": 2,
+    "questionText": "¿Qué librería de Android provee soporte para compatibilidad con versiones antiguas?",
+    "options": ["android.runtime", "androidx.appcompat", "android.hardware", "kotlin.stdlib"],
+    "correctAnswerIndex": 1
+  },
+  {
     "id": 3,
-    "questionText": "¿Cuál es el propósito de una app \"híbrida\"?",
-    "options": ["Funciona sin conexión a internet", "Mezcla contenido gratuito y de pago", "Se ejecuta en múltiples plataformas con un solo código", "Es una combinación de juegos y redes sociales"],
+    "questionText": "¿Cuál es el rol del Android Runtime (ART) en la arquitectura de Android?",
+    "options": ["Proveer la interfaz gráfica de la app.", "Controlar el acceso a hardware como GPS y cámara.", "Ejecutar el bytecode de las aplicaciones en dispositivos Android.", "Gestionar la red y conexiones externas."],
     "correctAnswerIndex": 2
   },
   {
     "id": 4,
-    "questionText": "¿Qué plataforma se utiliza para distribuir aplicaciones Android?",
-    "options": ["App Store", "Google Play", "Windows Store", "Huawei AppGallery"],
+    "questionText": "¿Qué clase representa una interfaz de usuario individual en una aplicación Android?",
+    "options": ["FragmentManager", "Activity", "Service", "ViewModel"],
     "correctAnswerIndex": 1
   },
   {
     "id": 5,
-    "questionText": "¿Cuál es el entorno de desarrollo oficial para Android?",
-    "options": ["Visual Studio", "Xcode", "Android Studio", "NetBeans"],
+    "questionText": "¿Cuál es el propósito de un ViewGroup en Android?",
+    "options": ["Mostrar imágenes en alta resolución.", "Reproducir audio y video.", "Agrupar y organizar múltiples elementos View.", "Controlar el ciclo de vida de la app."],
     "correctAnswerIndex": 2
   },
   {
     "id": 6,
-    "questionText": "¿Qué significa \"UX\" en el contexto de apps móviles?",
-    "options": ["Uso Extendido", "Usuario Experto", "Experiencia del Usuario", "Unidad Extendida"],
-    "correctAnswerIndex": 2
+    "questionText": "¿Qué componente permite mostrar una lista de elementos con comportamiento interactivo básico?",
+    "options": ["ScrollView", "ListView", "ConstraintLayout", "ImageView"],
+    "correctAnswerIndex": 1
   },
   {
     "id": 7,
-    "questionText": "¿Qué herramienta permite crear apps móviles sin saber programar?",
-    "options": ["Android Studio", "Flutter", "Appgyver", "Kotlin"],
+    "questionText": "¿Cuál es una ventaja principal de usar Fragments en lugar de múltiples Activities?",
+    "options": ["Fragments no usan memoria RAM.", "Fragments reemplazan completamente a Activities.", "Permiten interfaces más flexibles y reutilizables dentro de una misma Activity.", "Solo funcionan en versiones antiguas de Android."],
     "correctAnswerIndex": 2
   },
   {
     "id": 8,
-    "questionText": "¿Qué es una “notificación push”?",
-    "options": ["Un mensaje SMS", "Un correo electrónico automatizado", "Un mensaje enviado por la app al dispositivo del usuario", "Una actualización automática de la app"],
+    "questionText": "¿Cuál de los siguientes layouts permite posicionamiento relativo entre vistas hijas?",
+    "options": ["LinearLayout", "FrameLayout", "RelativeLayout", "TableLayout"],
     "correctAnswerIndex": 2
   },
   {
     "id": 9,
-    "questionText": "¿Cuál es el lenguaje principal de Flutter?",
-    "options": ["Dart", "Kotlin", "JavaScript", "Java"],
-    "correctAnswerIndex": 0
+    "questionText": "¿Cuál es la función de un LayoutInflater?",
+    "options": ["Ejecutar código de red en segundo plano.", "Inflar el XML de layout en objetos View reales en tiempo de ejecución.", "Optimizar recursos de red.", "Convertir imágenes en texto."],
+    "correctAnswerIndex": 1
   },
   {
     "id": 10,
-    "questionText": "¿Qué significa que una app sea \"responsive\"?",
-    "options": ["Tiene buenas reseñas", "Se adapta a diferentes tamaños de pantalla", "Es rápida", "Consume poca batería"],
-    "correctAnswerIndex": 1
+    "questionText": "¿Qué diferencia hay entre una View y un ViewGroup en Android?",
+    "options": ["View es abstracta, ViewGroup no.", "View puede contener otras vistas, ViewGroup no.", "ViewGroup puede contener Views, mientras que View representa un solo elemento de UI.", "No hay ninguna diferencia."],
+    "correctAnswerIndex": 2
   },
   {
     "id": 11,
-    "questionText": "¿Qué empresa desarrolla iOS?",
-    "options": ["Microsoft", "Apple", "Google", "Samsung"],
-    "correctAnswerIndex": 1
+    "questionText": "¿Cuál es una ventaja de usar RecyclerView sobre ListView?",
+    "options": ["Tiene menor compatibilidad con versiones antiguas.", "Solo permite mostrar imágenes.", "Ofrece un rendimiento más eficiente al manejar listas grandes y vistas recicladas.", "Requiere menos código XML."],
+    "correctAnswerIndex": 2
   },
   {
     "id": 12,
-    "questionText": "¿Qué tipo de app necesita conexión constante a internet?",
-    "options": ["Nativa", "Híbrida", "Web", "De escritorio"],
+    "questionText": "¿Qué clase de ViewHolder se asocia comúnmente con un RecyclerView?",
+    "options": ["RecyclerAdapter", "ViewAdapter", "RecyclerView.ViewHolder", "ListItemAdapter"],
     "correctAnswerIndex": 2
   },
   {
     "id": 13,
-    "questionText": "¿Qué es un APK?",
-    "options": ["Una copia de seguridad", "Un archivo comprimido de música", "Un archivo de instalación de Android", "Un antivirus"],
-    "correctAnswerIndex": 2
-  },
-  {
-    "id": 14,
-    "questionText": "¿Cuál de las siguientes es una app de mensajería?",
-    "options": ["Canva", "WhatsApp", "Spotify", "Waze"],
+    "questionText": "¿Cuál es el propósito de un CardView en Android?",
+    "options": ["Crear listas con desplazamiento horizontal.", "Envolver contenido con un diseño tipo tarjeta con sombra y bordes redondeados.", "Renderizar contenido 3D.", "Administrar llamadas de red."],
     "correctAnswerIndex": 1
   },
   {
+    "id": 14,
+    "questionText": "¿Qué función cumple el método `onCreateView` dentro de un Fragment?",
+    "options": ["Crear la Activity asociada al fragment.", "Ejecutar tareas de red.", "Inflar el layout XML del fragment.", "Eliminar el fragment de la pila."],
+    "correctAnswerIndex": 2
+  },
+  {
     "id": 15,
-    "questionText": "¿Cuál es una ventaja de las apps nativas?",
-    "options": ["Funcionan solo en navegadores", "Son más lentas", "Tienen mejor rendimiento y acceso al hardware", "No requieren instalación"],
+    "questionText": "¿Qué clase se usa normalmente para adaptar los datos a un RecyclerView?",
+    "options": ["RecyclerAdapterManager", "ArrayListAdapter", "RecyclerView.Adapter", "RecyclerDataBinder"],
     "correctAnswerIndex": 2
   }
 ]
