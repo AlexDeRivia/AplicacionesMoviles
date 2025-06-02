@@ -4,6 +4,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="teal_700">#018786</color>
     <color name="purple_500">#6200EE</color>
+    <color name="background_dark">#121212</color>
+    <color name="green_neon">#1DB954</color>
+    <color name="purple_neon">#BB86FC</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="option_card">#BB86FC</color>
+    <color name="gray_dark">#2F4F4F</color>
 
 
 </resources>

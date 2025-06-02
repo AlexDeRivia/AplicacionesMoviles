@@ -1,58 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/quizLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_dark"
     tools:context=".QuizActivity">
 
+    <!-- Temporizador tipo círculo -->
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressTimer"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:indicatorSize="48dp"
+        app:trackThickness="6dp"
+        app:indicatorColor="@color/green_neon"
+        app:trackColor="@color/gray_dark"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:padding="24dp"
+    <!-- Pregunta -->
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="¿Cuál es el rol del Android Runtime (ART) en la arquitectura de Android?"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/progressTimer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/textUserName"
-            android:text="Bienvenido"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp" />
-
-        <TextView
-            android:id="@+id/textQuestion"
-            android:text="Pregunta aquí"
-            android:textSize="18sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp" />
+    <!-- Opciones -->
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/textQuestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
             android:id="@+id/buttonOption1"
+            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" />
+            android:layout_marginVertical="8dp"
+            android:text="Proveer la interfaz gráfica de la app."
+            android:textColor="@color/black"
+            android:backgroundTint="@color/option_card" />
+
         <Button
             android:id="@+id/buttonOption2"
+            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" />
+            android:layout_marginVertical="8dp"
+            android:text="Controlar el acceso a hardware como GPS y cámara."
+            android:textColor="@color/black"
+            android:backgroundTint="@color/option_card" />
+
         <Button
             android:id="@+id/buttonOption3"
+            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" />
+            android:layout_marginVertical="8dp"
+            android:text="Ejecutar el bytecode de las aplicaciones en dispositivos Android."
+            android:textColor="@color/black"
+            android:backgroundTint="@color/option_card" />
+
         <Button
             android:id="@+id/buttonOption4"
+            style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
+            android:layout_marginVertical="8dp"
+            android:text="Gestionar la red y conexiones externas."
+            android:textColor="@color/black"
+            android:backgroundTint="@color/option_card" />
 
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

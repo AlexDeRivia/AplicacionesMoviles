@@ -23,9 +23,9 @@ class ResultActivity : AppCompatActivity() {
         editor.putInt("lastScore", score)
         editor.apply()
 
-        val textViewResult = findViewById<TextView>(R.id.textViewResult)
+        val textViewResult = findViewById<TextView>(R.id.textResultScore)
         val buttonRestart = findViewById<Button>(R.id.buttonRestart)
-        val buttonHome = findViewById<Button>(R.id.buttonHome)
+        val buttonHome = findViewById<Button>(R.id.buttonReturnHome)
 
         textViewResult.text = "¡$userName, tu puntaje es $score!"
 
