@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">San Pedrito App</string>
+    <string name="desfile_title">Desfile de San Pedrito</string>
+    <string name="desfile_subtitle">26 de Junio - Ingeniería de Sistemas</string>
+    <string name="form_subtitle">Formulario de Confirmación de Asistencia</string>
+    <string name="nombre_hint">Nombre completo</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="tipo_participante">Tipo de participante:</string>
+    <string name="alumno">👨‍🎓 Alumno</string>
+    <string name="docente">👨‍🏫 Docente</string>
+    <string name="confirmar_asistencia">Confirmar asistencia</string>
+    <string name="participaras_desfile">¿Participarás en el desfile?</string>
+    <string name="registrar_asistencia">REGISTRAR ASISTENCIA</string>
+    <string name="mensaje_confirmacion">¡Excelente! Te esperamos el 26 de junio para celebrar a San Pedrito, patrono de los ingenieros. 🎉⚙️</string>
+    <string name="info_evento">📅 Fecha: 26 de Junio\n📍 Lugar: Campus Universitario\n⏰ Hora: 9:00 AM\n🎓 Carrera: Ingeniería de Sistemas</string>
+    <string name="error_nombre_requerido">El nombre es obligatorio</string>
+    <string name="error_email_requerido">El email es obligatorio</string>
+    <string name="error_email_formato">Formato de email inválido</string>
+    <string name="error_tipo_requerido">Selecciona el tipo de participante</string>
+</resources>
