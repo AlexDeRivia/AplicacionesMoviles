@@ -6,8 +6,11 @@ Este repositorio contiene múltiples proyectos desarrollados en Android Studio c
 - `S01_Login`: Login básico (solo diseño).
 - `S02_RegistroAlumnos`: App para registrar alumnos y mostrarlo en una tabla con filtros.
 - `S03_CartaDiaMadre`: Carta en honor al dia de la madre usando componentes visuales.
-- `S04_Quizz`: Aplicación tipo quiz con 15 preguntas de opción múltiple y retroalimentación visual.
-- `S05_ClinicaRobles`: Aplicación para una clínica médica con lista de especialidades usando RecyclerView.
+- `S04_Quizz`: App tipo quiz con 15 preguntas de opción múltiple y retroalimentación visual.
+- `S05_ClinicaRobles`: App para una clínica médica con lista de especialidades usando RecyclerView.
+- `S08_SanPedrito`: App de formulario para confirmar la asistencia de docentes y alumnos al desfile de San Pedrito.
+- `S09_SharedPreferencesApp`: App para crear y guardar perfiles de usuario usando SharedPreferences.
+- `S10_GameVaultApp`: App que guarda estadisticas, logros, permite ver y agregar videojuegos.
 
 ## 🛠 Requisitos
 
