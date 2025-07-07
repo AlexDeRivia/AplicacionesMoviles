@@ -24,15 +24,15 @@ Este proyecto consiste en una pantalla de login básica con campos de usuario y 
 #### 🎯 Finalidad
 Practicar el diseño de interfaces móviles en Android Studio, aplicando principios de Material Design para formularios de inicio de sesión.
 
-#### 🧰 Tecnologías / Recursos usados
+#### 🧰 Recursos usados
 - **Lenguaje:** Kotlin  
 - **IDE:** Android Studio  
 - **Componentes usados:**
-  - `EditText`
-  - `Button`
-  - `TextView`
-  - `ConstraintLayout`
-  - `Material Design`
+  - EditTex
+  - `Button
+  - `TextView
+  - ConstraintLayout
+  - Material Design
 
 #### 🖼️ Capturas de pantalla
 
@@ -51,10 +51,9 @@ Aplicación que permite registrar alumnos con sus datos básicos y mostrarlos en
 #### 🎯 Finalidad
 Practicar la recolección de datos desde formularios y su visualización en una lista filtrable.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
-- RecyclerView  
-- EditText + filtros en tiempo real  
+#### 🧰 Recursos usados 
+- RecyclerView
+- EditText + filtros en tiempo real 
 - Material Design
 
 #### 🖼️ Capturas de pantalla
@@ -73,10 +72,9 @@ Aplicación dedicada al Día de la Madre, que muestra una carta con diseño visu
 #### 🎯 Finalidad
 Desarrollar habilidades en diseño de interfaces con layouts y uso creativo de componentes visuales.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
+#### 🧰 Recursos usados
 - LinearLayout / ConstraintLayout  
-- ImageView, TextView  
+- ImageView, TextView 
 - Estilos y personalización visual
 
 #### 🖼️ Capturas de pantalla
@@ -95,8 +93,7 @@ Aplicación tipo quiz con 15 preguntas de opción múltiple. Muestra retroalimen
 #### 🎯 Finalidad
 Practicar lógica condicional, manejo de eventos y navegación entre preguntas.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
+#### 🧰 Recursos usados  
 - SharedPreferences (para guardar nombre y puntaje)  
 - ProgressBar  
 - Material Buttons  
@@ -118,8 +115,7 @@ Aplicación de una clínica médica que muestra una lista de especialidades y su
 #### 🎯 Finalidad
 Aplicar el uso de RecyclerView, diseño dinámico de tarjetas, y personalización visual en apps reales.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
+#### 🧰 Recursos usados  
 - RecyclerView  
 - CardView  
 - Material Design 3  
@@ -141,8 +137,7 @@ Formulario móvil para confirmar la asistencia de docentes y alumnos al desfile 
 #### 🎯 Finalidad
 Practicar el uso de formularios completos, validación y estructura visual institucional.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
+#### 🧰 Recursos usados
 - EditText, Spinner, CheckBox  
 - WebView (para términos y condiciones)  
 - Material Design  
@@ -164,8 +159,7 @@ App que permite crear y guardar un perfil de usuario (nombre, edad, correo) usan
 #### 🎯 Finalidad
 Aprender a guardar y recuperar datos simples de manera persistente en el dispositivo.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
+#### 🧰 Recursos usados
 - SharedPreferences  
 - Formulario con validación  
 - Dark Mode con `Switch`  
@@ -187,10 +181,8 @@ App para registrar, listar, editar y eliminar videojuegos favoritos del usuario.
 #### 🎯 Finalidad
 Desarrollar una app CRUD completa con interfaz profesional e integración con Firebase.
 
-#### 🧰 Tecnologías / Recursos usados
-- Kotlin  
-- Firebase Realtime Database  
-- RecyclerView  
+#### 🧰 Recursos usados  
+- Firebase Realtime Database    
 - CRUD completo (Crear, Leer, Actualizar, Eliminar)  
 - Filtros y búsquedas por género o título
 
