@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="@color/gaming_button_pressed"
+                android:endColor="@color/gaming_purple_dark"
+                android:type="linear" />
+            <corners android:radius="28dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/gaming_glow" />
+        </shape>
+    </item>
+    
+    <!-- Estado normal -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="@color/gaming_purple"
+                android:centerColor="@color/gaming_pink"
+                android:endColor="@color/gaming_cyan"
+                android:type="linear" />
+            <corners android:radius="28dp" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/gaming_purple" />
+        </shape>
+    </item>
+    
+</selector>

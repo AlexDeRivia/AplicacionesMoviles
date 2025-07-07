@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Cuerpo principal del controlador -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M21.58,16.09l-1.09,-7.66C20.21,6.46 18.52,5 16.53,5H7.47C5.48,5 3.79,6.46 3.51,8.43l-1.09,7.66C2.2,17.63 3.39,19 4.94,19h0.65c0.96,0 1.84,-0.53 2.29,-1.37l1.62,-3.24c0.22,-0.45 0.68,-0.73 1.18,-0.73h2.64c0.5,0 0.96,0.28 1.18,0.73l1.62,3.24C16.57,18.47 17.45,19 18.41,19h0.65C20.61,19 21.8,17.63 21.58,16.09z"/>
+    
+    <!-- Botón izquierdo (verde) -->
+    <path
+        android:fillColor="@color/gaming_neon_green"
+        android:pathData="M9,10.5 C9.55,10.5 10,10.95 10,11.5 C10,12.05 9.55,12.5 9,12.5 C8.45,12.5 8,12.05 8,11.5 C8,10.95 8.45,10.5 9,10.5 Z"/>
+    
+    <!-- Botón derecho (naranja) -->
+    <path
+        android:fillColor="@color/gaming_orange"
+        android:pathData="M15,10.5 C15.55,10.5 16,10.95 16,11.5 C16,12.05 15.55,12.5 15,12.5 C14.45,12.5 14,12.05 14,11.5 C14,10.95 14.45,10.5 15,10.5 Z"/>
+    
+    <!-- Botón superior (rojo) -->
+    <path
+        android:fillColor="@color/gaming_red"
+        android:pathData="M12,8.5 C12.55,8.5 13,8.95 13,9.5 C13,10.05 12.55,10.5 12,10.5 C11.45,10.5 11,10.05 11,9.5 C11,8.95 11.45,8.5 12,8.5 Z"/>
+    
+    <!-- Botón inferior (cyan) -->
+    <path
+        android:fillColor="@color/gaming_cyan"
+        android:pathData="M12,12.5 C12.55,12.5 13,12.95 13,13.5 C13,14.05 12.55,14.5 12,14.5 C11.45,14.5 11,14.05 11,13.5 C11,12.95 11.45,12.5 12,12.5 Z"/>
+    
+    <!-- D-pad izquierda -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M6,11 L8,11 L8,13 L6,13 Z"/>
+    
+    <!-- D-pad derecha -->  
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M16,11 L18,11 L18,13 L16,13 Z"/>
+    
+</vector>

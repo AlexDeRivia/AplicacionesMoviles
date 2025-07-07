@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_edit"
+        android:title="Editar"
+        android:icon="@drawable/ic_edit"
+        android:iconTint="@color/gaming_neon_green" />
+    <item
+        android:id="@+id/item_delete"
+        android:title="Eliminar"
+        android:icon="@drawable/ic_delete"
+        android:iconTint="@color/gaming_red" />
+</menu>
+

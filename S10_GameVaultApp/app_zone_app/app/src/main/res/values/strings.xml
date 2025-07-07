@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">GameVault</string>
+    
+    <!-- 🎮 Pantalla de Login - Tema Gaming -->
+    <string name="login_title">¡Bienvenido Gamer!</string>
+    <string name="login_subtitle">Inicia sesión para acceder a tu zona de juego</string>
+    
+    <!-- Campos de entrada -->
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    
+    <!-- Botones principales -->
+    <string name="btn_login">INICIAR SESIÓN</string>
+    <string name="btn_register">REGISTRARSE</string>
+    <string name="btn_logout">CERRAR SESIÓN</string>
+    <string name="btn_forgot_password">¿Olvidaste tu contraseña?</string>
+    
+    <!-- Enlaces y opciones -->
+    <string name="link_no_account">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="link_have_account">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="guest_login">Continuar como invitado</string>
+    
+    <!-- Mensajes de estado -->
+    <string name="loading">Cargando...</string>
+    <string name="login_success">¡Bienvenido de vuelta, gamer!</string>
+    <string name="register_success">¡Cuenta creada exitosamente!</string>
+    <string name="logout_success">¡Hasta la próxima partida!</string>
+    
+    <!-- Mensajes de error -->
+    <string name="error_empty_email">Por favor ingresa tu correo electrónico</string>
+    <string name="error_empty_password">Por favor ingresa tu contraseña</string>
+    <string name="error_invalid_email">Correo electrónico no válido</string>
+    <string name="error_weak_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_not_match">Las contraseñas no coinciden</string>
+    <string name="error_login_failed">Error al iniciar sesión. Verifica tus credenciales</string>
+    <string name="error_register_failed">Error al crear la cuenta. Inténtalo de nuevo</string>
+    <string name="error_network">Error de conexión. Verifica tu internet</string>
+    <string name="error_user_not_found">Usuario no encontrado</string>
+    <string name="error_wrong_password">Contraseña incorrecta</string>
+    <string name="error_email_already_in_use">Este correo ya está registrado</string>
+    
+    <!-- Pantalla principal después del login -->
+    <string name="welcome_user">¡Hola, %1$s!</string>
+    <string name="main_title">Panel de Control Gaming</string>
+    <string name="main_subtitle">Tu zona de juego personalizada</string>
+    
+    <!-- Elementos de la interfaz -->
+    <string name="btn_view_games">Ver Juegos</string>
+    <string name="player_stats">Estadísticas del Jugador</string>
+    <string name="achievements">Logros</string>
+    <string name="settings">Configuración</string>
+    <string name="profile">Perfil</string>
+    
+    <!-- Mensajes generales -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+    <string name="continue_text">Continuar</string>
+    
+    <!-- Firebase Authentication específico -->
+    <string name="auth_verification_email_sent">Correo de verificación enviado</string>
+    <string name="auth_email_verification_required">Verifica tu correo electrónico para continuar</string>
+    <string name="auth_password_reset_sent">Correo de recuperación enviado</string>
+    
+    <!-- Gaming themed messages -->
+    <string name="level_up">¡Subiste de nivel!</string>
+    <string name="game_over">Game Over</string>
+    <string name="new_high_score">¡Nuevo récord!</string>
+    <string name="achievement_unlocked">¡Logro desbloqueado!</string>
+</resources>

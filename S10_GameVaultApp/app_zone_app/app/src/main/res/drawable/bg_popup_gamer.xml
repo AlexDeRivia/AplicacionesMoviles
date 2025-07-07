@@ -1,0 +1,11 @@
+<!-- res/drawable/bg_popup_gamer.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/gaming_surface_variant" />
+    <corners android:radius="12dp" />
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+</shape>

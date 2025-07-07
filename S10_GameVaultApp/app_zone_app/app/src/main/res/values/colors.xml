@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 🎮 Tema Gaming / Videojuego -->
+    <!-- Colores primarios neón -->
+    <color name="gaming_purple">#8B5CF6</color>          <!-- Púrpura neón principal -->
+    <color name="gaming_purple_dark">#6D28D9</color>     <!-- Púrpura oscuro -->
+    <color name="gaming_cyan">#06B6D4</color>            <!-- Cyan brillante -->
+    <color name="gaming_cyan_dark">#0891B2</color>       <!-- Cyan oscuro -->
+    
+    <!-- Colores de acento -->
+    <color name="gaming_neon_green">#10B981</color>      <!-- Verde neón éxito -->
+    <color name="gaming_orange">#F59E0B</color>          <!-- Naranja gaming -->
+    <color name="gaming_red">#EF4444</color>             <!-- Rojo error/peligro -->
+    <color name="gaming_pink">#EC4899</color>            <!-- Rosa neón -->
+    
+    <!-- Fondos y superficies -->
+    <color name="gaming_bg_primary">#0F0F23</color>      <!-- Fondo principal oscuro -->
+    <color name="gaming_bg_secondary">#1A1A2E</color>    <!-- Fondo secundario -->
+    <color name="gaming_surface">#16213E</color>         <!-- Superficie de componentes -->
+    <color name="gaming_surface_variant">#232946</color> <!-- Variante de superficie -->
+    
+    <!-- Textos -->
+    <color name="gaming_text_primary">#E2E8F0</color>    <!-- Texto principal claro -->
+    <color name="gaming_text_secondary">#94A3B8</color>  <!-- Texto secundario -->
+    <color name="gaming_text_hint">#64748B</color>       <!-- Texto de ayuda -->
+    
+    <!-- Estados de botones y componentes -->
+    <color name="gaming_button_primary">#8B5CF6</color>   <!-- Botón principal -->
+    <color name="gaming_button_secondary">#374151</color> <!-- Botón secundario -->
+    <color name="gaming_button_pressed">#6D28D9</color>   <!-- Botón presionado -->
+    
+    <!-- Bordes y divisores -->
+    <color name="gaming_border">#475569</color>          <!-- Bordes -->
+    <color name="gaming_divider">#334155</color>         <!-- Divisores -->
+    
+    <!-- Estados especiales -->
+    <color name="gaming_success">#10B981</color>         <!-- Estado exitoso -->
+    <color name="gaming_warning">#F59E0B</color>         <!-- Advertencia -->
+    <color name="gaming_error">#EF4444</color>           <!-- Error -->
+    <color name="gaming_info">#06B6D4</color>            <!-- Información -->
+    
+    <!-- Efectos especiales -->
+    <color name="gaming_glow">#8B5CF6</color>            <!-- Color para efectos glow -->
+    <color name="gaming_shadow">#000000</color>          <!-- Sombras -->
+    <color name="gaming_highlight">#FBBF24</color>       <!-- Resaltado dorado -->
+</resources>
