@@ -29,8 +29,8 @@ Practicar el diseño de interfaces móviles en Android Studio, aplicando princip
 - **IDE:** Android Studio  
 - **Componentes usados:**
   - EditTex
-  - `Button
-  - `TextView
+  - Button
+  - TextView
   - ConstraintLayout
   - Material Design
 
