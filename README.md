@@ -34,7 +34,7 @@ Practicar el diseño de interfaces móviles en Android Studio, aplicando princip
   - `Button`
   - `TextView`
   - `ConstraintLayout`
-  - Material Design
+  - `Material Design`
 
 #### 🖼️ Capturas de pantalla
 
@@ -43,12 +43,16 @@ Practicar el diseño de interfaces móviles en Android Studio, aplicando princip
 | ![S01_Login](capturas/S01_Login.png) |
 
 
+---
+
 ## 🛠 Requisitos
 
 - Android Studio Arctic Fox o superior
 - SDK mínimo: API 21 (Android 5.0)
 - Kotlin (última versión recomendada)
 - Gradle configurado
+
+---
 
 ## 🚀 Cómo ejecutar un proyecto
 
