@@ -11,6 +11,7 @@ Este repositorio contiene múltiples proyectos desarrollados en Android Studio c
 - `S08_SanPedrito`: App de formulario para confirmar la asistencia de docentes y alumnos al desfile de San Pedrito.
 - `S09_SharedPreferencesApp`: App para crear y guardar perfiles de usuario usando SharedPreferences.
 - `S10_GameVaultApp`: App que guarda estadisticas, logros, permite ver y agregar videojuegos.
+- `S12_Calculadora`: Calculadora básica con operaciones y manejo de estado usando ViewModel y LiveData.
 
 
 
@@ -188,9 +189,33 @@ Desarrollar una app CRUD completa con interfaz profesional e integración con Fi
 
 #### 🖼️ Capturas de pantalla
 
-| Lista de Juegos | Detalle del Juego |
-|------------------|--------------------|
+| Lista de Juegos |
+|------------------|
 | ![S10_GameVaultApp](capturas/S10_GameVaultApp.png) |
+
+---
+
+### 📁 S12_Calculadora
+
+#### 📄 Descripción
+Calculadora básica que permite realizar operaciones como suma, resta, multiplicación, división, potencia y raíz cuadrada. Utiliza el patrón MVVM para manejar el estado de la app de manera reactiva y persistente.
+
+#### 🎯 Finalidad
+Aplicar el uso de **ViewModel** para mantener los datos persistentes ante cambios de configuración (como rotación de pantalla), y **LiveData** para actualizar automáticamente la interfaz cuando cambian los resultados.
+
+#### 🧰 Recursos usados  
+- ViewModel  
+- LiveData  
+- EditText, TextView, Buttons  
+- ConstraintLayout  
+- Lógica de operaciones matemáticas básicas
+
+#### 🖼️ Capturas de pantalla
+
+| Calculadora Básica |
+|---------------------|
+| ![S12_Calculadora](capturas/S12_Calculadora.png) |
+
 
 ---
 
