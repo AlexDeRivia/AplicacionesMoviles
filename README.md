@@ -102,8 +102,8 @@ Practicar lógica condicional, manejo de eventos y navegación entre preguntas.
 
 #### 🖼️ Capturas de pantalla
 
-| Pantalla de Preguntas | Resultados |
-|------------------------|------------|
+| Pantalla de Preguntas |
+|------------------------|
 | ![S04_Quizz](capturas/S04_Quizz.png) |
 
 ---
