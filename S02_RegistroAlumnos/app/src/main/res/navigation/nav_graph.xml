@@ -6,15 +6,16 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.s02_registroalumnos.HomeFragment.HomeFragment"
+        android:name="com.example.s02_registroalumnos.HomeFragment"
         android:label="Inicio" />
     <fragment
         android:id="@+id/nav_register"
-        android:name="com.example.s02_registroalumnos.RegisterFragment.RegisterFragment"
+        android:name="com.example.s02_registroalumnos.RegisterFragment"
         android:label="Registro" />
     <fragment
         android:id="@+id/nav_logout"
-        android:name="com.example.s02_registroalumnos.ExitFragment.ExitFragment"
+        android:name="com.example.s02_registroalumnos.ExitFragment"
         android:label="Salir" />
 
 </navigation>
+
