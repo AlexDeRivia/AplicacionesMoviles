@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         if (!Places.isInitialized()) {
             // Es crucial que esta clave sea la misma que la configurada en AndroidManifest.xml
             // o una clave válida para Places API.
-            Places.initialize(applicationContext, "AIzaSyDw9B8NNRBdBjTUY4Lim5kRqAIorw6Clmw");
+            Places.initialize(applicationContext, "TU API KEY AQUI");
         }
         placesClient = Places.createClient(this)
 
