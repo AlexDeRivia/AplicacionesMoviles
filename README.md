@@ -12,6 +12,7 @@ Este repositorio contiene múltiples proyectos desarrollados en Android Studio c
 - `S09_SharedPreferencesApp`: App para crear y guardar perfiles de usuario usando SharedPreferences.
 - `S10_GameVaultApp`: App que guarda estadisticas, logros, permite ver y agregar videojuegos.
 - `S12_Calculadora`: Calculadora básica con operaciones y manejo de estado usando ViewModel y LiveData.
+- `S13_TechPoint`: App con mapa que busca lugares de venta cercanos según un componente tecnológico ingresado por el usuario.
 
 
 
@@ -218,8 +219,29 @@ Aplicar el uso de **ViewModel** para mantener los datos persistentes ante cambio
 
 
 ---
+### 📁 S13_TechPoint
 
+#### 📄 Descripción  
+Aplicación que permite buscar los establecimientos más cercanos donde se vende un componente tecnológico específico, utilizando Google Maps y Google Places API. El usuario ingresa el nombre del componente y la app muestra los resultados como marcadores en el mapa.
 
+#### 🎯 Finalidad  
+Integrar mapas en una app móvil y trabajar con servicios de localización y búsqueda de lugares cercanos, usando las APIs de Google. También permite practicar el uso de permisos, ubicación en tiempo real y consumo de servicios externos.
+
+#### 🧰 Recursos usados  
+- Google Maps SDK  
+- Google Places API
+- Geolocation API 
+- FusedLocationProviderClient  
+- EditText, Button, MapFragment  
+- Kotlin + Material Design
+
+#### 🖼️ Capturas de pantalla
+
+| Búsqueda de Tiendas Cercanas |
+|------------------------------|
+| ![S13_TechPoint](capturas/S13_TechPoint.png) |
+
+---
 ## 🛠 Requisitos
 
 - Android Studio Arctic Fox o superior
